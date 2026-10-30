@@ -90,6 +90,10 @@ unprivileged user can create a user namespace directly — no launcher needed.
 | Ubuntu 26.04 | 7.0.0-42-generic | vulnerable (requires launcher) |
 | AlmaLinux 10.2 | 6.12.0-211.33.1.el10_2 | patched 2026-10-28 |
 
+> **Note:** This PoC is profiled for `6.12.113+deb13-amd64` only. Running on
+> a different kernel version will print `ENVIRONMENT_MISMATCH` and exit safely
+> without modifying anything.
+
 Upstream fix (not yet in Debian trixie as of 2026-10-30):
 https://lists.openwall.net/netdev/2026/10/22/204
 
