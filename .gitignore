@@ -1,0 +1,4 @@
+zerofrag
+zerofrag-*
+*.o
+.DS_Store
